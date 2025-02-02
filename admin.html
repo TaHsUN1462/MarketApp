@@ -358,8 +358,8 @@
     });
 
     document.getElementById('backBtn').addEventListener('click', () => {
-      window.location.href = '/';
-    });
+    history.back();
+});
 
     fetchProducts();
   </script>
